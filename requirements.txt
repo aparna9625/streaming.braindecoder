@@ -1,9 +1,8 @@
 numpy==1.24
 soundfile
 librosa
-fastapi[all]==0.103.0
 lightning==2.2.0
-hydra-core==1.0.7
+hydra-core
 sentencepiece
 tensorboardX
 transformers
@@ -19,7 +18,5 @@ tabulate
 pandas==1.5.3
 seaborn==0.11.0
 statannot
-numpy==1.26.3
 editdistance
 tabulate
-seaborn==0.12

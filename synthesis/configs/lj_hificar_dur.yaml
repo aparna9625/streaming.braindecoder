@@ -158,8 +158,8 @@ disc_lr_configs:
     - 240000
     - 320000   
 data:
-  wav_dir: data/wavs
-  unit_dir: data/hb100
+  wav_dir: ../../data/LJSpeech-1.1/wavs
+  unit_dir: ../../data/LJSpeech-1.1/hb100
   split_manifests: 
     train: assets/manifests/train.txt
     dev: assets/manifests/dev.txt
@@ -175,5 +175,5 @@ resume_ckpt: null
 check_val_every_n_epoch: 1 
 val_check_interval: null 
 accumulate_grad_batches: 1
-gpus: '7' #'0'
+gpus: '0' #'0'
 seed: 41
